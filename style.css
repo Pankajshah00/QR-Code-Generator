@@ -1,0 +1,39 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+.container{
+    background-color: rgb(139, 203, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+
+
+}
+.box{
+    background-color: rgb(3, 53, 57);
+    text-align: center;
+    padding: 50px 200px;
+    border-radius: 20px;
+}
+p{
+    font-size: 200%;
+    color: aliceblue;
+}
+input{
+    padding: 10px 100px;
+    border: 2px solid black;
+}
+button{
+    padding: 10px 110px;
+    background-color: rgb(139, 203, 214);
+    border-radius: 2px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.03);
+}
